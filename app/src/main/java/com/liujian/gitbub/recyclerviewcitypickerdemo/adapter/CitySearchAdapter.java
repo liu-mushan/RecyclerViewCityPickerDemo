@@ -15,12 +15,9 @@ import com.liujian.gitbub.recyclerviewcitypickerdemo.helper.OnCityClickListener;
 import java.util.List;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo.adapter
- * @description: 城市搜索结果的适配器
- * @author: liujian
- * @date: 2016/8/8 10:33
- * @version: V1.0
+ * 城市搜索结果的适配器
+ * @author : liujian
+ * @since : 2016/8/8 10:33
  */
 public class CitySearchAdapter extends RecyclerView.Adapter<CitySearchAdapter.CitySearchHolder>{
     private Context mContext;

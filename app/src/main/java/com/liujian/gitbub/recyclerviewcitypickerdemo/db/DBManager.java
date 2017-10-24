@@ -17,12 +17,10 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo
- * @description: 从数据库获取数据的帮助类
- * @author: liujian
- * @date: 2016/4/8 11:28
- * @version: V1.0
+
+ * 从数据库获取数据的帮助类
+ * @author : liujian
+ * @since : 2016/4/8 11:28
  */
 public class DBManager {
     private static final String ASSETS_NAME = "china_cities.db";

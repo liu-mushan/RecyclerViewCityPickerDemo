@@ -4,12 +4,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo
- * @description: 城市名称和拼音的封装
- * @author: liujian
- * @date: 2016/8/8 10:16
- * @version: V1.0
+ * 城市名称和拼音的封装
+ * @author : liujian
+ * @since : 2016/8/8 10:16
  */
 public class City implements Parcelable {
     private String name;

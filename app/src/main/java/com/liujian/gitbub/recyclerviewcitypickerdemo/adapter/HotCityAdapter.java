@@ -14,20 +14,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo.adapter
- * @description: 热门城市的适配器
- * @author: liujian
- * @date: 2016/8/8 10:34
- * @version: V1.0
+ * 热门城市的适配器
+ * @author : liujian
+ * @since  : 2016/8/8 10:34
  */
-public class HotCityAdapter extends RecyclerView.Adapter<HotCityAdapter.HotCityViewHolder> {
+class HotCityAdapter extends RecyclerView.Adapter<HotCityAdapter.HotCityViewHolder> {
     private Context mContext;
     private List<String> mCities;
     private LayoutInflater mInflater;
     private OnCityClickListener mOnCityClickListener;
 
-    public HotCityAdapter(Context context) {
+    HotCityAdapter(Context context) {
         mContext = context;
         mCities = new ArrayList<>();
         mInflater = LayoutInflater.from(mContext);
@@ -74,7 +71,7 @@ public class HotCityAdapter extends RecyclerView.Adapter<HotCityAdapter.HotCityV
     static class HotCityViewHolder extends RecyclerView.ViewHolder {
         TextView tv_hot_city_name;
 
-        public HotCityViewHolder(View itemView) {
+        HotCityViewHolder(View itemView) {
             super(itemView);
             tv_hot_city_name = (TextView) itemView.findViewById(R.id.tv_hot_city_name);
         }

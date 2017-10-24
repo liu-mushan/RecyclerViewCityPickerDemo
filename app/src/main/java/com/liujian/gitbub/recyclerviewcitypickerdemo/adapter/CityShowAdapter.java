@@ -22,12 +22,9 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo.adapter
- * @description: 城市展示列表的适配器
- * @author: liujian
- * @date: 2016/8/8 10:32
- * @version: V1.0
+ * 城市展示列表的适配器
+ * @author : liujian
+ * @since  : 2016/8/8 10:32
  */
 public class CityShowAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private Context mContext;

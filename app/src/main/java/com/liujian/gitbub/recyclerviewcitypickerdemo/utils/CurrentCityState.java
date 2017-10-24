@@ -1,12 +1,9 @@
 package com.liujian.gitbub.recyclerviewcitypickerdemo.utils;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo.utils
- * @description:当前定位的城市的状态
- * @author: liujian
- * @date: 2016/8/8 10:26
- * @version: V1.0
+ * 当前定位的城市的状态
+ * @author : liujian
+ * @since : 2016/8/8 10:26
  */
 public class CurrentCityState {
     /**

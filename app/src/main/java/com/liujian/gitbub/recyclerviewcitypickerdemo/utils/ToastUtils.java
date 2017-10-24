@@ -4,20 +4,16 @@ import android.content.Context;
 import android.widget.Toast;
 
 /**
- * @project_Name: RecyclerViewCityPickerDemo
- * @package: com.liujian.gitbub.recyclerviewcitypickerdemo
- * @description:
- * @author: liujian
- * @date: 2016/4/8 11:03
- * @version: V1.0
+ * @author : liujian
+ * @since : 2016/4/8 11:03
  */
 public class ToastUtils {
     private static Toast mToast;
 
     /**
      * 显示吐司
-     * @param context
-     * @param message
+     * @param context Context
+     * @param message String
      */
     public static void showToast(final Context context, final String message){
         if (mToast == null){
@@ -31,8 +27,8 @@ public class ToastUtils {
 
     /**
      * 显示吐司
-     * @param context
-     * @param messageResId
+     * @param context Context
+     * @param messageResId int
      */
     public static void showToast(final Context context, final int messageResId){
         if (mToast == null){
