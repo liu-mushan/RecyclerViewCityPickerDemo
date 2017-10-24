@@ -1,0 +1,2 @@
+# RecyclerViewCityPickerDemo
+RecyclerView仿美团城市选择的Demo，右侧a-z选择，绝对能满足你的需求
